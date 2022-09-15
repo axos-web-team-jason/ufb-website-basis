@@ -1,0 +1,81 @@
+{
+  "heroBanner": {
+    "superHeader": "",
+    "header": "Savings Accounts",
+    "body": "Enjoy the security of a traditional savings account with the advantage of high interest rates and limited transactions.",
+    "button": "Open Account",
+    "buttonLink": "https://www.espn.com",
+    "link": "Continue Application"
+  },
+
+  "secondaryBlockHeader": "Exceptional Interest Rates, Innovative Financial Solutions",
+  "secondaryBlock": [
+    {
+      "id": 1,
+      "color": "primaryStyle",
+      "preHeader": "POPULAR",
+      "mainHeader": "UFB Premium Money Market",
+      "copy": "Enjoy the security and earning potential of a savings account while maintaining the flexibility to write checks. Enjoy a rate of 0.20% APY on balances equal to or greater than $25,000.",
+      "linkText": ["More Details", "Other Offers", "Continue Application"],
+      "buttonText": "Open An Account"
+    },
+    {
+      "id": 2,
+      "color": "primaryStyle",
+      "preHeader": "",
+      "mainHeader": "UFB High Yield Savings Account",
+      "copy": "The High Yield Savings Account is a high-yielding, competitive-tiered, and variable-rate savings account. The High Yield Savings account offers a rate of 0.20% APY on balances equal to or greater than $10,000. ",
+      "linkText": ["More Details", "Other Offers", "Continue Application"],
+      "buttonText": "Open An Account"
+    }
+  ],
+
+  "mainContent": {
+    "pageHeader": "",
+    "superHeader": "Savings Features",
+    "header": "Earn up to 20% APY",
+    "body": "At UFB Direct, our innovative digital banking model allows us to keep our overhead costs down and pass our savings along to you in the form of free services, rewards programs, and exceptionally competitive interest rates. Our savings accounts are tailored to the unique needs and goals of our customers as we work to provide them with financial solutions and benefits that no other bank can offer.",
+    "checks": [],
+    "links": ["Apply Now"],
+    "button": "Learn More",
+    "sublink": "Contact Us"
+  },
+
+  "tertBlockHeader": "We Take Data Protection Seriously",
+  "tile": [
+    {
+      "id": 1,
+      "color": "lightStyle",
+      "preHeader": "Stay Safe",
+      "mainHeader": "Fraud Protection",
+      "body": "We regularly monitor all accounts for potential fraud and use anti-virus protection to help us detect and prevent viruses. Our firewalls help block unauthorized access by individuals or networks.",
+      "linkText": "Open An Account"
+    },
+
+    {
+      "id": 2,
+      "color": "lightStyle",
+      "preHeader": "Always Secure",
+      "mainHeader": "SSL Encryption",
+      "body": "This site’s Secure Socket Layer 128 bit (SSL) encryption creates a secure connection with your browser when you log in, fill out an application, or register in online services.",
+      "linkText": "Open An Account"
+    },
+    {
+      "id": 3,
+      "color": "lightStyle",
+      "preHeader": "We Got It",
+      "mainHeader": "Automatic Logouts",
+      "body": "We automatically log you out of your secure session after a period of inactivity to help protect against others seeing or using your online accounts.",
+      "linkText": "Open An Account"
+    }
+  ],
+  "footer": {
+    "disclosures": [
+      {
+        "id": 1,
+        "superscript": "*",
+        "text": "The Annual Percentage Yield (APY) is accurate as of 4/11/2022. The interest rate and corresponding APY for savings and money market accounts are variable and are set at our discretion. Interest rates may change as often as daily without prior notice. Fees may reduce earnings."
+      }
+    ]
+  }
+}

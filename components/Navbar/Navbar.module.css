@@ -1,0 +1,242 @@
+.navSection,
+.openMenu {
+  background-color: var(--ufb-dark);
+}
+
+.navContainer {
+  margin: 0 10px;
+  padding: 24px 110px 18px 43px;
+  display: flex;
+  color: var(--ufb-light);
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+
+.imgContainer {
+  max-width: 100%;
+  height: auto;
+  margin-right: 61px;
+}
+
+.linkColor {
+  color: #fff !important;
+}
+
+.navStack {
+  display: none;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #323339;
+}
+
+.navItem {
+  position: relative;
+  display: inline-block;
+  padding: 3px 24px;
+  margin: 0 -8px -5px 0;
+}
+
+.navItemActive {
+  font-weight: 700;
+  border-bottom: 5px solid #ffffff;
+}
+
+.signIn {
+  position: relative;
+  display: inline-block;
+  margin: 0 -8px -5px 0;
+  padding: 11px 30px;
+  background: #e18357;
+  border-radius: 8px;
+  color: var(--ufb-dark);
+  font-weight: 700;
+  top: -2px;
+}
+
+.signIn:after {
+  content: "";
+  position: relative;
+  transition: 0.3s;
+  margin: 0 -9px 0 11px;
+  padding: 10px;
+  background: url("../../assets/nav-primary.png") no-repeat 50% / contain;
+  height: 100%;
+  top: 1px;
+}
+
+.signInLink {
+  color: var(--ufb-dark);
+}
+
+.mobileNavList,
+.userProfile {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .navContainer {
+    padding: 24px 20px 18px 43px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hide {
+    visibility: hidden;
+  }
+
+  .navContainer {
+    padding: 21px 34px 22px;
+    justify-content: center;
+  }
+
+  .imgContainer {
+    margin: 0 auto;
+  }
+
+  .navItem {
+    display: none;
+  }
+
+  .navStack {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+  }
+
+  .navStackContainer {
+    position: absolute;
+    left: 21px;
+    top: 26px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+  }
+
+  .navLineContainer {
+    position: absolute;
+    left: 21px;
+    top: 30px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+  }
+
+  .navLine,
+  .navLine:before,
+  .navLine::after {
+    cursor: pointer;
+    border-radius: 5px;
+    height: 2px;
+    width: 21px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: "";
+    transition: all 180ms ease-in-out;
+  }
+
+  .navLine:before {
+    top: -5px;
+  }
+
+  .navLine::after {
+    bottom: -5px;
+  }
+
+  .mobileNavColor {
+    background-color: var(--ufb-light);
+  }
+
+  .mobileNavList {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ufb-dark);
+    color: var(--ufb-light);
+  }
+
+  .mobileNavItem {
+    font-size: 18px;
+    padding: 11px 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid #fff;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .mobileNavItem:nth-child(1) {
+    border-top: 0;
+  }
+
+  .mobileNavItem:nth-child(3) {
+    border-bottom: 0;
+  }
+
+  .openMenu {
+    background-color: #fff;
+  }
+
+  .navExitBlock {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80px;
+    width: 60px;
+  }
+
+  .navExit {
+    background-color: transparent;
+  }
+
+  .navExitContainer {
+    position: absolute;
+    left: 21px;
+    top: 29px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+  }
+
+  .navExit:before,
+  .navExit::after {
+    cursor: pointer;
+    border-radius: 5px;
+    height: 2px;
+    width: 20px;
+    background: var(--ufb-dark);
+    position: absolute;
+    display: block;
+    content: "";
+    transition: all 180ms ease-in-out;
+    transform: rotate(45deg);
+  }
+
+  .navExit::after {
+    transform: rotate(-45deg);
+  }
+
+  .signIn {
+    display: none;
+  }
+
+  .userProfile {
+    position: absolute;
+    top: 24px;
+    right: 22px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

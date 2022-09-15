@@ -1,0 +1,85 @@
+{
+  "heroBanner": {
+    "superHeader": "",
+    "header": "Contact Us",
+    "body": "Do you have a question for us? For an immediate answer, please check out our Frequently Asked Questions page.",
+    "button": "Frequently Asked Questions",
+    "buttonLink": "https://www.espn.com",
+    "link": ""
+  },
+
+  "twoUpHeader": "Why UFB Direct?",
+  "twoUpBlock": [
+    {
+      "id": 1,
+      "superHeader": "",
+      "header": "Mail Us",
+      "body": "Whether you’re buying your first home, looking to refinance, or in need of information on a home equity line of credit, UFB Direct is here to help you every step of the way",
+      "checks": [
+        "$0 Lender Fee, a savings of up to $2,500 or more*",
+        "Industry-leading low mortgage rates",
+        "Award-winning customer service"
+      ],
+      "links": ["Apply Now", "Refinance"],
+      "button": "Begin Application",
+      "sublink": "Learn More",
+      "img": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCard_MailUs.5538a376.jpg&w=640&q=75"
+    },
+    {
+      "id": 2,
+      "superHeader": "",
+      "header": "Special Delivery",
+      "body": "We offer a wide range of mortgages and low rates to secure a home loan that’s right for you. Contact an agent today using our customer service chat below.",
+      "checks": [
+        "A revolutionary approach to home loans",
+        "Flexible, common-sense underwriting",
+        "The confidence of working with a full-service bank"
+      ],
+      "links": ["Apply Now", "Refinance"],
+      "button": "Begin Application",
+      "sublink": "Learn More",
+      "img": "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCard_SpecialDelivery.6dcb9a16.jpg&w=1200&q=75"
+    }
+  ],
+
+  "mainContent": {
+    "pageHeader": "",
+    "superHeader": "Savings Features",
+    "header": "Earn up to 20% APY",
+    "body": "At UFB Direct, our innovative digital banking model allows us to keep our overhead costs down and pass our savings along to you in the form of free services, rewards programs, and exceptionally competitive interest rates. Our savings accounts are tailored to the unique needs and goals of our customers as we work to provide them with financial solutions and benefits that no other bank can offer.",
+    "checks": [],
+    "links": ["Apply Now"],
+    "button": "Learn More",
+    "sublink": "Contact Us"
+  },
+
+  "tertBlockHeader": "We Take Data Protection Seriously",
+  "tile": [
+    {
+      "id": 1,
+      "color": "lightStyle",
+      "preHeader": "Stay Safe",
+      "mainHeader": "Fraud Protection",
+      "body": "We regularly monitor all accounts for potential fraud and use anti-virus protection to help us detect and prevent viruses. Our firewalls help block unauthorized access by individuals or networks.",
+      "linkText": "Open An Account"
+    },
+
+    {
+      "id": 2,
+      "color": "lightStyle",
+      "preHeader": "Always Secure",
+      "mainHeader": "SSL Encryption",
+      "body": "This site’s Secure Socket Layer 128 bit (SSL) encryption creates a secure connection with your browser when you log in, fill out an application, or register in online services.",
+      "linkText": "Open An Account"
+    }
+  ],
+  "footer": {
+    "disclosures": [
+      {
+        "id": 1,
+        "superscript": "*",
+        "text": "The Annual Percentage Yield (APY) is accurate as of 4/11/2022. The interest rate and corresponding APY for savings and money market accounts are variable and are set at our discretion. Interest rates may change as often as daily without prior notice. Fees may reduce earnings."
+      }
+    ]
+  }
+}

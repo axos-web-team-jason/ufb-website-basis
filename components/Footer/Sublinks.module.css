@@ -1,0 +1,20 @@
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 58px 0;
+  font-weight: 600;
+}
+
+.color {
+  color: var(--ufb-secondary);
+}
+
+@media (max-width: 768px) {
+  .links {
+    flex-wrap: wrap;
+  }
+
+  .links > * {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "linksArr": [
+    { "page": "Savings", "link": "https://www.ufbdirect.com/Savings", "id": 1 },
+    {
+      "page": "Mortgages",
+      "link": "https://www.ufbdirect.com/Mortgages",
+      "id": 2
+    },
+    { "page": "Blog", "link": "https://www.ufbdirect.com/ufb-blog", "id": 3 },
+    {
+      "page": "Digital Tools",
+      "link": "https://www.ufbdirect.com/tools",
+      "id": 4
+    },
+    {
+      "page": "About Us",
+      "link": "https://www.ufbdirect.com/About-Us",
+      "id": 5
+    },
+    {
+      "page": "Disclosures",
+      "link": "https://www.ufbdirect.com/Disclosures",
+      "id": 6
+    },
+    {
+      "page": "Privacy and Security",
+      "link": "https://www.ufbdirect.com/privacy-security",
+      "id": 7
+    }
+  ],
+
+  "footer": {
+    "copyright": "UFB Direct, All Rights Reserved",
+    "fdic": "Bank products and services are offered by Axos Bank®. All deposit accounts through Axos Bank brands are FDIC insured through Axos Bank. All deposit accounts of the same ownership and/or vesting held at Axos Bank are combined and insured under the same FDIC Certificate 35546. All deposit accounts through Axos Bank brands are not separately insured by the FDIC from other deposit accounts held with the same ownership and/or vesting at Axos Bank. For more information read our FDIC Notice.",
+    "nmls": "Axos Bank NMLS# 524995"
+  }
+}

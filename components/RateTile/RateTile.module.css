@@ -1,0 +1,130 @@
+.rateTile {
+  padding: 55px 80px;
+  max-width: 1200px;
+  margin: auto;
+  background: linear-gradient(47.5deg, #051a3f 0, #1e3860 52.51%, #4d85b0 100%);
+  border-radius: 16px;
+  color: #333d46;
+}
+.rateTileContainer {
+  display: flex;
+  flex: 0 1 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 90px;
+  gap: 90px;
+  padding: 0 20px;
+}
+.formulaText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.apyContainer {
+  padding-right: 10px;
+  font-family: "Lora", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100px;
+  text-align: right;
+  letter-spacing: -3.3px;
+}
+.apyContainer div:nth-child(1),
+.apyContainer div:nth-child(2),
+.apyContainer div:nth-child(5) {
+  color: var(--ufb-white);
+}
+.apyContainer div:nth-child(3),
+.apyContainer div:nth-child(4) {
+  color: #fff;
+}
+
+.apyContainer :nth-child(4) {
+  margin-bottom: -7px;
+}
+.apy {
+  font-weight: 300;
+  text-align: right;
+  font-size: 24px;
+  line-height: 60px;
+  letter-spacing: -3.3px;
+  margin-top: -20px;
+}
+.rateTileText {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.44;
+  letter-spacing: 0.2px;
+  color: var(--ufb-white);
+  margin-top: 1rem;
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .rateTileContainer {
+    gap: 0px;
+    align-items: center;
+    text-align: center;
+  }
+  .rateTileText {
+    width: 50%;
+    margin: auto;
+  }
+  .apyContainer {
+    text-align: center;
+  }
+  .rateTileText {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 788px) {
+  .rateTileContainer {
+    padding: 0 20px;
+    gap: 0px;
+  }
+  .rateTile {
+    padding: 32px 22px;
+  }
+  .rateTileText {
+    width: auto;
+  }
+  .apyContainer {
+    margin: auto;
+    padding-right: 0;
+  }
+  div.rateTileText {
+    margin-top: 24px;
+  }
+  div.rateTileText > p:nth-child(1),
+  div.rateTileText > p:nth-child(2) {
+    margin: 10px 0;
+  }
+  div.rateTileText > p:nth-child(3) {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 371px) {
+  .rateTile {
+    padding: 32px 21px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .apyContainer {
+    font-size: 73px;
+    line-height: 90px;
+  }
+}
+body > footer > div:nth-child(2) > div.rich-text > p {
+  width: auto !important;
+}
+.heroBtnWrapper > .btn-primary::after {
+  content: none;
+}

@@ -1,0 +1,133 @@
+{
+  "heroBanner": {
+    "superHeader": "UFB Features",
+    "header": "Mortgages",
+    "body": "We offer a variety of home loans tailored by Axos Bank® to meet your unique mortgage-related objectives.",
+    "button": "Get an Instant Rate Quote",
+    "buttonLink": "https://www.espn.com",
+    "link": "Continue Application"
+  },
+
+  "mainContent": {
+    "pageHeader": "Mortgages Tailored to Your Unique Needs",
+    "superHeader": "UFB Features",
+    "header": "Mortgage Options",
+    "body": "We offer industry-leading low mortgage rates and award-winning service. Whether you’re buying your first home, looking to refinance, or in need of information on a home equity line of credit, UFB Direct is here to help you every step of the way. We offer a wide range of mortgages and low rates to help you to secure a home loan that’s right for you.",
+    "checks": [
+      "$0 Lender Fee, a savings of up to $2,500 or more*",
+      "Industry-leading low mortgage rates",
+      "Award-winning customer service"
+    ],
+    "links": ["Apply Now"],
+    "button": "Learn More",
+    "sublink": "Contact Us"
+  },
+
+  "tertBlockHeader": "What our customers are saying",
+  "tertTestimonial": "We invite you to discover what sets UFB Direct apart from the competition, such as superior customer service and innovative financial products without the fees. Don’t just take our word for it; see what our loyal customers have to say about us.",
+
+  "tile": [
+    {
+      "id": 1,
+      "color": "primaryStyle",
+      "preHeader": "UFB Customers",
+      "mainHeader": "Problem Solvers",
+      "body": "\"UFB Direct was very polite and helpful and knew what needed to be done to solve my problem.\"",
+      "linkText": "Andrea",
+      "buttonText": "Begin Application"
+    },
+
+    {
+      "id": 2,
+      "color": "primaryStyle",
+      "preHeader": "UFB Customers",
+      "mainHeader": "The Easiest Experience",
+      "body": "UFB Direct was exceptionally helpful and made the entire process a breeze. Although I originally began working with UFB Direct to refinance only my home mortgage, the process was so easy and pleasant I decided to also refinance my rental property.",
+      "linkText": "Javier",
+      "buttonText": "Begin Application"
+    },
+    {
+      "id": 3,
+      "color": "primaryStyle",
+      "preHeader": "UFB Customers",
+      "mainHeader": "Clear and Timely",
+      "body": "I enjoyed all the individuals I worked with. Evan was both friendly and professional and took the time to understand my specific situation and guide me to the proper loan option. Jane was a pleasure to receive her clear timely communication and responses during loan processing, and Diane was highly efficient through the close process.",
+      "linkText": "Daron",
+      "buttonText": "Begin Application"
+    }
+  ],
+
+  "twoUpHeader": "Why UFB Direct?",
+  "twoUpBlock": [
+    {
+      "id": 1,
+      "superHeader": "UFB Features",
+      "header": "We're Here to Help",
+      "body": "Whether you’re buying your first home, looking to refinance, or in need of information on a home equity line of credit, UFB Direct is here to help you every step of the way",
+      "checks": [
+        "$0 Lender Fee, a savings of up to $2,500 or more*",
+        "Industry-leading low mortgage rates",
+        "Award-winning customer service"
+      ],
+      "links": ["Apply Now", "Refinance"],
+      "button": "Begin Application",
+      "sublink": "Learn More"
+    },
+    {
+      "id": 2,
+      "superHeader": "UFB Features",
+      "header": "The Better Choice",
+      "body": "We offer a wide range of mortgages and low rates to secure a home loan that’s right for you. Contact an agent today using our customer service chat below.",
+      "checks": [
+        "A revolutionary approach to home loans",
+        "Flexible, common-sense underwriting",
+        "The confidence of working with a full-service bank"
+      ],
+      "links": ["Apply Now", "Refinance"],
+      "button": "Begin Application",
+      "sublink": "Learn More"
+    }
+  ],
+
+  "CTA": { "text": "Get an Instant Rate Quote", "button": "Begin Application" },
+
+  "header": "Articles & Tools",
+  "articles": [
+    {
+      "type": "article",
+      "title": "3 Money Lessons We All Learned from the Coronavirus",
+      "body": "COVID-19 will have a lasting impact on how Americans handle our money.  Here are the main lessons we’ve learned.",
+      "img": "https://www.axosbank.com/-/media/Axos/Images/Related-Articles/article-1.png",
+      "url": "https://www.axosbank.com/blog/3-Money-Lessons-We-All-Learned-from-the-Coronavirus"
+    },
+    {
+      "type": "article",
+      "title": "Can I Still Refinance During COVID-19?",
+      "body": "Even during a pandemic, many homeowners can benefit from refinancing when interest rates are at historic lows.",
+      "img": "https://www.axosbank.com/-/media/Axos/Images/Related-Articles/article-3.png",
+      "url": "https://www.axosbank.com/blog/Can-I-Still-Refinance-During-COVID-19"
+    },
+    {
+      "type": "calculator",
+      "title": "Rent or Buy Calculator",
+      "body": "Calculate your potential savings whether you choose to rent or buy a home. Take a look at your options and see where you can save.",
+      "img": "https://www.axosbank.com/-/media/Axos/Images/Related-Articles/article-2.png",
+      "url": "https://www.axosbank.com/Tools/Calculators/Rent-or-Buy-Calculator"
+    }
+  ],
+
+  "footer": {
+    "disclosures": [
+      {
+        "id": 1,
+        "superscript": "*",
+        "text": "Axos Bank will waive its lender fee ($995) or reduce its lender fee on new first lien mortgage loans under the following conditions: 1) The customer must have an existing or open a new Axos Bank Checking Account during the loan application process; AND 2) the new mortgage loan must be for $250,000 or more; OR 3) if the new mortgage loan is less than $250,000, Axos Bank will reduce its lender fee by $200 if the customer has or opens a new Axos Bank™ Checking Account during the loan application process. The customer will be responsible for all third party fees and all prepaid items. The $2,500 average savings is based on a national average for lender fees presuming a $250,000 loan amount and 1% origination fee."
+      },
+      {
+        "id": 2,
+        "superscript": "†",
+        "text": "Axos Bank will waive its lender fee ($995) ."
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+.ctaContainer {
+  text-align: center;
+  padding: 6% 0;
+  background-color: #59526e;
+  color: var(--ufb-light);
+  position: relative;
+}
+
+/* .preHeader {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: left;
+  background-color: var(--ufb-dark);
+  position: absolute;
+  width: fit-content;
+  top: 0;
+  left: 6%;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+} */
+
+.header {
+  font-size: 3em;
+  font-family: "Lora", sans-serif;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.ctaBtn > button {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.2px;
+  padding: 11px 64px;
+  background-color: var(--ufb-bg);
+  color: var(--ufb-dark);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .ctaContainer {
+    padding: 76px 0;
+  }
+}

@@ -1,0 +1,169 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600;700&family=Lato:wght@400;700&display=swap"); */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.primaryBlock {
+  padding: 32px 28px 42px;
+  background: var(--ufb-primary);
+  border-radius: 16px;
+  max-width: 100%;
+  width: 588px;
+}
+
+.preHeader {
+  /* background: linear-gradient(47.5deg, #1e3860 0%, #158994 52.6%, #38d7a4 100%); */
+  background: var(--ufb-bg);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.2px;
+}
+
+.mainHeader {
+  /* background: linear-gradient(
+      47.5deg,
+      #051a3f 0%,
+      #1e3860 52.51%,
+      #4d85b0 100%
+    ); */
+  background: var(--ufb-dark);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lora", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.29;
+  letter-spacing: -0.5px;
+}
+
+.copyWrapper {
+  margin-top: 16px;
+}
+
+.copyWrapper > p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: var(--ufb-dark);
+  margin-bottom: 0;
+}
+
+.linkContainer > a,
+.buttonLinkContainer > a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.2px;
+  color: var(--ufb-secondary);
+  display: block;
+}
+
+.linkContainer > a::after,
+.buttonLinkContainer > a::after {
+  content: "";
+  background: url("../../assets/ufb-arrow.png") no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  position: relative;
+  height: 100%;
+  top: 1px;
+  padding-left: 35px;
+}
+
+.linkContainer > a:nth-child(1) {
+  margin-top: 18px;
+}
+
+.linkContainer > a:nth-child(2) {
+  margin-top: 12px;
+}
+
+.buttonLinkContainer {
+  text-align: center;
+  color: var(--ufb-bg);
+  margin-top: 18px;
+}
+
+.buttonLinkContainer > div > button {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.2px;
+  padding: 11px 64px;
+  background-color: var(--ufb-bg);
+  color: var(--ufb-dark);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.buttonLinkContainer > a {
+  margin-top: 18px;
+}
+
+.lightBlock {
+  /* background: linear-gradient(
+      47.5deg,
+      #051a3f 0%,
+      #1e3860 52.51%,
+      #4d85b0 100%
+    ); */
+  background: var(--ufb-light);
+}
+
+.darkBlock {
+  /* background: linear-gradient(
+      47.5deg,
+      #051a3f 0%,
+      #1e3860 52.51%,
+      #4d85b0 100%
+    ); */
+  background: var(--ufb-dark);
+}
+
+.secondaryText {
+  background: var(--ufb-bg);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lightText {
+  background: var(--ufb-white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.whiteCopy > p {
+  color: var(--ufb-white);
+}
+
+.secondaryButton > div > button {
+  background-color: var(--ufb-bg);
+  color: var(--ufb-dark);
+}
+
+.secondaryLink > div > a {
+  color: var(--ufb-bg);
+}
+
+.secondaryMode.linkContainer > a::after,
+.secondaryMode.buttonLinkContainer > a::after {
+  content: "";
+  background-image: url("../../assets/ufb-arrow.png");
+}
+
+@media screen and (max-width: 343px) {
+  .linkContainer {
+    text-align: center;
+  }
+}
